@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
-// ---------- KEYBOARD ---------- //
+// ---------- PIANO ---------- //
 
 const whiteKeys = document.querySelectorAll(".white-key");
 const blackKeys = document.querySelectorAll(".black-key");
