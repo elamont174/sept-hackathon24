@@ -1,4 +1,3 @@
-
 const pitches = {
   '1': 261.63,
   '2': 293.66,
@@ -6,8 +5,7 @@ const pitches = {
   '4': 392.00,
   '5': 440.00,
   '6': 493.88
-}
-
+};
 
 const buttons = {
   '1': document.getElementById('one'),
@@ -18,14 +16,12 @@ const buttons = {
   '6': document.getElementById('six')
 };
 
-
 let gameSequence = [];
 let playerSequence = [];
 let round = 0;
-
+let isGameRunning = false;
 
 const context = new (window.AudioContext || window.webkitAudioContext)();
-
 
 function playTone(pitch, duration = 500) {
   const oscillator = context.createOscillator();
@@ -39,14 +35,12 @@ function playTone(pitch, duration = 500) {
 function highlightButton(pitch) {
   const button = buttons[pitch];
   button.classList.add('highlight');
-  setTimeout(() => {
-    button.classList.remove('highlight');
-  }, 300);
+  setTimeout(() => button.classList.remove('highlight'), 300);
 }
 
 function playSequence(sequence) {
   let delay = 500;
-  sequence.forEach((pitch, index) => {
+  sequence.forEach(pitch => {
     setTimeout(() => {
       playTone(pitch);
       highlightButton(pitch);
@@ -55,67 +49,67 @@ function playSequence(sequence) {
   });
 }
 
-
 function disableButtons() {
-  Object.values(buttons).forEach(button => button.classList.add('disabled'));
+  if (isGameRunning) {
+    Object.values(buttons).forEach(button => button.classList.add('disabled'));
+  }
 }
-
 
 function enableButtons() {
   Object.values(buttons).forEach(button => button.classList.remove('disabled'));
 }
 
-
 function nextRound() {
   disableButtons();
   playerSequence = [];
-  const newPitch = getRandomPitch();
-  gameSequence.push(newPitch);
+  gameSequence.push(getRandomPitch());
   round++;
   document.getElementById('message').textContent = `Round ${round}`;
 
-
   setTimeout(() => playSequence(gameSequence), 500);
-
-
-  setTimeout(() => {
-    enableButtons();
-  }, gameSequence.length * 1000 + 500);
+  setTimeout(() => enableButtons(), gameSequence.length * 1000 + 500);
 }
-
 
 function handlePlayerInput(pitch) {
-  playerSequence.push(pitch);
-  playTone(pitch);
-  highlightButton(pitch);
+  if (isGameRunning) {
+    disableButtons();
+    playTone(pitch);
+    highlightButton(pitch);
+    playerSequence.push(pitch);
 
+    const currentMoveIndex = playerSequence.length - 1;
 
-  const currentMoveIndex = playerSequence.length - 1;
-  if (playerSequence[currentMoveIndex] !== gameSequence[currentMoveIndex]) {
-    gameOver();
-    return;
-  }
+    if (playerSequence[currentMoveIndex] !== gameSequence[currentMoveIndex]) {
+      gameOver();
+      return;
+    }
 
-
-  if (playerSequence.length === gameSequence.length) {
-    setTimeout(nextRound, 1000);
+    if (playerSequence.length === gameSequence.length) {
+      setTimeout(nextRound, 1000);
+    } else {
+      setTimeout(enableButtons, 500);
+    }
+  } else {
+    playTone(pitch);
+    highlightButton(pitch);
+    disableButtons();
+    setTimeout(enableButtons, 500);
   }
 }
-
 
 function gameOver() {
-  document.getElementById('message').textContent = `Game Over! You reached round ${round}. Press the Start button to play again.`;
+  document.getElementById('message').textContent = `Game Over! You reached round ${round}. Press "Start Game" to play again.`;
   resetGame();
 }
-
 
 function resetGame() {
   gameSequence = [];
   playerSequence = [];
   round = 0;
+  isGameRunning = false;
+  enableButtons();
   document.getElementById('start-btn').disabled = false;
 }
-
 
 function getRandomPitch() {
   const pitchKeys = Object.keys(pitches);
@@ -123,27 +117,38 @@ function getRandomPitch() {
   return pitchKeys[randomIndex];
 }
 
+function disableAllButtonsTemporarily() {
+
+  Object.values(buttons).forEach(button => {
+    button.classList.add('disabled');
+  });
+
+
+  setTimeout(() => {
+    Object.values(buttons).forEach(button => {
+      button.classList.remove('disabled');
+    });
+  }, 1000);
+}
 
 function init() {
   Object.keys(buttons).forEach(pitch => {
     buttons[pitch].addEventListener('click', () => {
       if (!buttons[pitch].classList.contains('disabled')) {
         handlePlayerInput(pitch);
+        disableAllButtonsTemporarily();
       }
     });
   });
-
-
   const startButton = document.getElementById('start-btn');
   startButton.addEventListener('click', () => {
     startButton.disabled = true;
+    isGameRunning = true;
     nextRound();
   });
 
-
   enableButtons();
-  document.getElementById('message').textContent = 'Click any button to hear the pitch. Press Start when ready!';
+  document.getElementById('message').textContent = 'Click "Start Game" to begin!';
 }
-
 
 init();
