@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/allauth.css' %}">
+{% endblock %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block content %}
+{% if request.user.is_authenticated %}
+<div class="container px-0 h-100 m-5 ">
+
+  <h1>You are already signin</h1>
+
+</div>
+<hr class="m-5">
+{% else %}
+<div class="container px-0 h-100 text-black text-left py-5 text-sm-left w-100">
+  <h1 class="text-black">{% trans "Sign Up" %}</h1>
+  <p class="text-black">{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}" class="text-danger">sign
+      in</a>.{% endblocktrans %}
+  </p>
+  <form class="signup rounded" id="signup_form" method="post" action="{% url 'account_signup' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    {% if redirect_field_value %}
+    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+    {% endif %}
+    <button type="submit" class="btn btn-primary btn-lg active">{% trans "Sign Up" %} &raquo;</button>
+  </form>
+</div>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% load account socialaccount %}
+{% load static%}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/allauth.css' %}">
+{% endblock %}
+
+{% block head_title %}{% trans "Sign In" %}{% endblock %}
+
+{% block content %}
+{% if request.user.is_authenticated %}
+<div class="container px-0 h-100 m-5 ">
+
+  <h1>You are already signin</h1>
+
+</div>
+<hr class="m-5">
+{% else %}
+<div class="container h-100 text-black text-center py-5 px-0 mx-auto w-100">
+  <h1>{% trans "Sign In" %}</h1>
+  <hr>
+  {% get_providers as socialaccount_providers %}
+
+  {% if socialaccount_providers %}
+  <p>{% blocktrans with site.name as site_name %}Please sign in with one
+    of your existing third party accounts. Or, <a href="{{ signup_url }}" >sign up</a>
+    for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
+
+  <div class="socialaccount_ballot">
+
+    <ul class="socialaccount_providers">
+      {% include "socialaccount/snippets/provider_list.html" with process="login" %}
+    </ul>
+
+    <div class="login-or">{% trans 'or' %}</div>
+
+  </div>
+
+  {% include "socialaccount/snippets/login_extra.html" %}
+
+  {% else %}
+  <p>{% blocktrans %}If you have not created an account yet, then please
+    <a href="{{ signup_url }}" class="text-danger">sign up</a> first.{% endblocktrans %}</p>
+  {% endif %}
+
+  <form class="login" method="POST" action="{% url 'account_login' %}">
+    {% csrf_token %}
+    <div class="container px-0 form-group mx-auto text-left">
+      <div class="p-0 col-sm-7 col-md-5 col-lg-4 col-xl-3">
+        {{ form.as_p }}
+      </div>
+      {% if redirect_field_value %}
+      <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+      {% endif %}
+      <a class="button secondaryAction text-danger" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
+      <button class="primaryAction btn btn-primary btn-lg active" type="submit">{% trans "Sign In" %}</button>
+    </div>
+  </form>
+</div>
+{% endif %}
+{% endblock %}
