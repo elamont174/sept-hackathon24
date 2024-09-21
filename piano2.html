@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Piano</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="main-layout" id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Hackathon Team 5</a>
+        <button
+          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio"
+                >Instructions</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Piano Display -->
+    <div class="container mt-4 mt-lg-16 page-section">
+      <div class="row">
+        <div class="col-12 flex">
+          <div class="piano-container">
+            <!--White keys-->
+            <div class="white-keys-container">
+              <div class="white-key key" id="one">C</div>
+              <div class="white-key key" id="two">D</div>
+              <div class="white-key key" id="three">E</div>
+              <div class="white-key key" id="four">F</div>
+              <div class="white-key key" id="five">G</div>
+              <div class="white-key key" id="six">A</div>
+              <div class="white-key key" id="seven">H</div>
+              <div class="white-key key" id="eight">C</div>
+              <div class="white-key key" id="nine">D</div>
+              <div class="white-key key small-mobile-none" id="ten">E</div>
+              <div class="white-key key small-mobile-none" id="eleven">F</div>
+              <div class="white-key key small-mobile-none" id="twelve">G</div>
+              <div class="white-key key small-mobile-none" id="thirteen">A</div>
+              <div class="white-key key small-mobile-none" id="fourteen">H</div>
+              <div class="white-key key mobile-none" id="fifteen">C</div>
+              <div class="white-key key mobile-none" id="sixteen">D</div>
+              <div class="white-key key mobile-none" id="seventeen">E</div>
+              <div class="white-key key mobile-none" id="eighteen">F</div>
+              <div class="white-key key mobile-none" id="nineteen">G</div>
+              <div class="white-key key mobile-none" id="twenty">A</div>
+              <div class="white-key key mobile-none" id="twentyone">H</div>
+              <!-- Black keys-->
+            </div>
+            <div class="black-keys-container">
+              <div class="black-key key black-1"></div>
+              <div class="black-key key black-2"></div>
+              <div class="empty-key key"></div>
+              <div class="black-key key black-4"></div>
+              <div class="black-key key black-5"></div>
+              <div class="black-key key black-6"></div>
+              <div class="empty-key key"></div>
+              <div class="black-key key black-8"></div>
+              <div class="black-key key black-9"></div>
+              <div class="empty-key small-mobile-none key"></div>
+              <div class="black-key small-mobile-none key black-11"></div>
+              <div class="black-key small-mobile-none key black-12"></div>
+              <div class="black-key small-mobile-none key black-13"></div>
+              <div class="empty-key small-mobile-none key"></div>
+              <div class="black-key key black-15 mobile-none"></div>
+              <div class="black-key key mobile-none black-16"></div>
+              <div class="black-key key mobile-none black-17"></div>
+              <div class="empty-key key mobile-none"></div>
+              <div class="black-key key mobile-none black-18"></div>
+              <div class="black-key key mobile-none black-19"></div>
+              <div class="empty-key key mobile-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 flex">
+        <div class="piano-quiz">
+          <p>Can you name these tunes?</p>
+          <br />
+          <p>B A G, B A G, G G G G, A A A A, B A G</p>
+          <br />
+          <p>B A G A, B B B, A A A, B B B, B A G A, B B B, A A B A G</p>
+          <br />
+          <p>C C, G G, A A G, F F, E E, D D C</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
