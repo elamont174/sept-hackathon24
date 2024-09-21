@@ -1,11 +1,3 @@
-const pitches = {
-  '1': 261.63,
-  '2': 293.66,
-  '3': 329.63,
-  '4': 392.00,
-  '5': 440.00,
-  '6': 493.88
-};
 
 const buttons = {
   '1': document.getElementById('one'),
@@ -14,22 +6,32 @@ const buttons = {
   '4': document.getElementById('four'),
   '5': document.getElementById('five'),
   '6': document.getElementById('six')
-};
+}
+
+const sounds = {
+  '1': "assets/sounds/game-sounds/1.mp3",
+  '2': "assets/sounds/game-sounds/2.mp3",
+  '3': "assets/sounds/game-sounds/3.mp3",
+  '4': "assets/sounds/game-sounds/4.mp3",
+  '5': "assets/sounds/game-sounds/5.mp3",
+  '6': "assets/sounds/game-sounds/6.mp3"
+}
 
 let gameSequence = [];
 let playerSequence = [];
 let round = 0;
 let isGameRunning = false;
+const uniformVolume = 0.7;
 
-const context = new (window.AudioContext || window.webkitAudioContext)();
+function playSound(pitch) {
+  const audio = new Audio(sounds[pitch]);
+  audio.volume = uniformVolume;
+  audio.play();
 
-function playTone(pitch, duration = 500) {
-  const oscillator = context.createOscillator();
-  oscillator.type = 'sine';
-  oscillator.frequency.setValueAtTime(pitches[pitch], context.currentTime);
-  oscillator.connect(context.destination);
-  oscillator.start();
-  setTimeout(() => oscillator.stop(), duration);
+  setTimeout(() => {
+    audio.pause();
+    audio.currentTime = 0;
+  }, 1000);
 }
 
 function highlightButton(pitch) {
@@ -42,7 +44,7 @@ function playSequence(sequence) {
   let delay = 500;
   sequence.forEach(pitch => {
     setTimeout(() => {
-      playTone(pitch);
+      playSound(pitch);
       highlightButton(pitch);
     }, delay);
     delay += 1000;
@@ -73,7 +75,7 @@ function nextRound() {
 function handlePlayerInput(pitch) {
   if (isGameRunning) {
     disableButtons();
-    playTone(pitch);
+    playSound(pitch);
     highlightButton(pitch);
     playerSequence.push(pitch);
 
@@ -90,7 +92,7 @@ function handlePlayerInput(pitch) {
       setTimeout(enableButtons, 500);
     }
   } else {
-    playTone(pitch);
+    playSound(pitch);
     highlightButton(pitch);
     disableButtons();
     setTimeout(enableButtons, 500);
@@ -112,23 +114,14 @@ function resetGame() {
 }
 
 function getRandomPitch() {
-  const pitchKeys = Object.keys(pitches);
+  const pitchKeys = Object.keys(buttons);
   const randomIndex = Math.floor(Math.random() * pitchKeys.length);
   return pitchKeys[randomIndex];
 }
 
 function disableAllButtonsTemporarily() {
-
-  Object.values(buttons).forEach(button => {
-    button.classList.add('disabled');
-  });
-
-
-  setTimeout(() => {
-    Object.values(buttons).forEach(button => {
-      button.classList.remove('disabled');
-    });
-  }, 1000);
+  disableButtons();
+  setTimeout(() => enableButtons(), 1000);
 }
 
 function init() {
@@ -140,6 +133,7 @@ function init() {
       }
     });
   });
+
   const startButton = document.getElementById('start-btn');
   startButton.addEventListener('click', () => {
     startButton.disabled = true;
