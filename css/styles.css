@@ -556,11 +556,11 @@ progress {
 }
 
 .contact-form {
- padding-top: 50px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   min-height: 60%;
   margin-bottom: 16px;
 }
@@ -859,6 +859,7 @@ textarea::placeholder {
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
@@ -11316,7 +11317,12 @@ html {
 }
 
 .page-section {
+  width: 100%;
   padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11462,7 +11468,7 @@ html {
 .bg-piano {
   z-index: -2;
   position: absolute;
-  height: 100vh;
+  height: 50vh;
   width: 160%;
   top: 30%;
   left: 00%;
@@ -11473,6 +11479,7 @@ html {
 @media (max-width: 600px) {
   .bg-piano {
     height: 100vh;
+    width: 100%;
   }
 }
 
@@ -11559,22 +11566,38 @@ html {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #e4e7eb;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
   color: #323f4b;
   max-height: 200px;
 }
 
+.footer svg {
+  min-height: 50px;
+}
+
 .copyright {
-  background-color: #cbd2d9;
-  color: #52606d;
+  background-color: #ffe3ec;
+  color: #ff8cba;
+}
+.copyright small {
+  background-color: #ffe3ec;
+  color: #ff8cba;
 }
 
 .main-layout {
   min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto auto auto;
+}
+
+/* for UI animations */
+.main-heading h1,
+.main-heading p {
+  display: block;
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  padding-bottom: 1.5em;
 }
 
 /* ---------- PIANO ---------- */
@@ -11627,13 +11650,12 @@ html {
   display: block;
 }
 
-
-.piano-questions{
-    margin: 50px;
+.piano-questions {
+  margin: 50px;
 }
 
 .piano-answers {
-    margin: 50px;
+  margin: 50px;
 }
 
 /* to display the keyboard only partially on small screens */
@@ -11777,6 +11799,16 @@ html {
 
 .game-card-body {
   cursor: pointer;
+}
+
+/* ----------ABOUT PAGE ----------*/
+
+.icon-about-page {
+  color: #ffa4f0;
+}
+
+.icon-about-page:hover {
+  color: #d263c0;
 }
 
 /* ----------FOOTER----------*/
