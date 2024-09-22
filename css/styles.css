@@ -11745,6 +11745,28 @@ html {
   cursor: pointer;
 }
 
+/* ----------FOOTER----------*/
+
+.footer-github {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  height: -500px;
+}
+
+a.footer-github {
+  color: #a30664;
+}
+
+a.footer-github:hover {
+  color: #c2368b;
+}
+
+.copyright {
+  margin-top: -5px;
+  height: 5px;
+  color: #c2368b;
+}
+
 /* media queries  */
 @media (max-width: 992px) {
   /* to display the keyboard only partially on small screens */
