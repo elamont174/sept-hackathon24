@@ -1,6 +1,6 @@
 # Hackathon team 5( The String team)
 
-The  String Team is Children hack  site dedicated  for children who want to learn Music and also play memory Game . It features 3 pages, the landing page being a welcome page
+The  String section site  is  Children hack  site dedicated  for children who want to learn Music and also play memory Game . It features 3 pages, the landing page being a welcome page
 The about page features a few paragraphs of text detailing about their Hackathon team 5 and their contact
 The instruction  page, where a user can read simple instruction about to play memory Game.
 
