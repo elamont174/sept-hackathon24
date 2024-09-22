@@ -11306,15 +11306,20 @@ html {
 
 /* style the background with a piano image  */
 .bg-piano {
-  z-index: -1;
+  z-index: -2;
   position: absolute;
-  height: 60vh;
+  height: 100vh;
   width: 160%;
   top: 30%;
-  left: -20%;
+  left: 00%;
   opacity: 10%;
-  background: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Piano_%2810356%29_-_The_Noun_Project.svg")
-    no-repeat;
+  background: url(/assets/img/learnmusic.svg) no-repeat;
+}
+
+@media (max-width: 600px) {
+  .bg-piano {
+    height: 100vh;
+  }
 }
 
 .bg-pattern {
