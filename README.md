@@ -1,133 +1,340 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hackathon team 5( The String team)
 
-Welcome Emma Lamont,
+The  String Team is Children hack  site dedicated  for children who want to learn Music and also play memory Game . It features 3 pages, the landing page being a welcome page
+The about page features a few paragraphs of text detailing about their Hackathon team 5 and their contact
+The instruction  page, where a user can read simple instruction about to play memory Game.
 
-This is a test
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+View the live site
+[here](https://).
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Mockup](asset/)
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Site wide
+#### Navigation Menu
+*   String Logo, which serves as a link to the index page,  and is responsive at 320px, 600px, and 50em. 1024px
+*   This will allow users to easily navigate between the pages within the site on these sizes devices.
 
-`python3 -m http.server`
+![Nav Menu](assets/images)
 
-A blue button should appear to click: _Make Public_,
+#### Hamburger Icon
+* At 991 pixel width or below, the navbar will turn into a drop down menu which also features a drop down toggle.
 
-Another blue button should appear to click: _Open Browser_.
+![Nav toggle](assets/images)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+#### Footer
+*   This  contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. 
 
-A blue button should appear to click: _Make Public_,
+![Footer](assets/images/)
 
-Another blue button should appear to click: _Open Browser_.
+#### Background Image
+* The site contains this..... 
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Background Image](assets/images)
 
-To log into the Heroku toolbelt CLI:
+### Landing Page
+* This page  welcomes the user to the website.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Landing Page Image](assets/images/readme-images)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Game Page
+* This page features the  game Page. The user is .....
 
-### Connecting your Mongo database
+![Game Page](assets/images/)
+* Once the user has -------
+* 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+![Piano Page](assets/images/)
 
----
+* This page for -----
 
-## Release History
+### Instruction Page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* The instruction page features  the instructure how to play Game ......
 
-**June 18, 2024,** Add Mongo back into template
+![Instruction page](assets/images/)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+* It features -----
 
-**May 28 2024:** Fix Mongo and Links installs
+### Contact page
+*   This contact form is implemented to allow users to contact 'The String Team' 
+*   Username (is a must;  if a user did not input their name, the system will warn that the name must be written)
+*   Email (is a must; if the user did not input their email, or input some text without "@", the user will be notified.)
 
-**April 26 2024:** Update node version to 16
+![Contact us page](assets/images/)
 
-**September 20 2023:** Update Python version to 3.9.17.
+* On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the original site.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Thank You message](assets/images/)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The contact page also features links to the The String Team members' LinkedIn Profiles.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Team M3mbers](assets/images/)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Features Left to Implement
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* As a future enhancement, the contact form will notify the user that their email was successfully submitted to the team's email account
+* There would be dedicated Twitter, youtube, and Facebook handle dedicated to 'String Team'
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Design 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### WireFlame
+* At the very beginning of the project, the Scrum Master instructed the Team Members to create a simple wireframe of the landing page to get creative  flowing. All of which contributed a little bit of something to the final project.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Wireframe](assets/images/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Colour Scheme
+We chose the site's colours to mirror the Children color (green, red, yellow, ---).
+![Colour Scheme](assets/images/)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* HTML5
+    * The structure of the Website was developed using HTML as the main language.
+* CSS3
+    * The Website was styled using custom CSS in an external file.
+* JavaScript
+    * The website's interactive aspects were contstructed using Javascript in an external file.
+* Bootstrap 
+    * The Website Navbar was from Bootstrap 5.3.2
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development of the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Responsiveness
 
----
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
-## FAQ about the uptime script
+Steps to test:
 
-**Why have you added this script?**
+1. Open browser and navigate to String
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Expected:
 
-**How will this affect me?**
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Actual:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Website behaved as expected with the exception of switching to landscape . 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Website was also opened on the following devices and no responsive issues were seen:
 
-**So….?**
+- Oukitel C21 Pro
+- TCL 30 Pro
+- iPhone SE
+- Samsung Galaxy Tablet
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Accessibility
 
-**Can I opt out?**
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Testing was focused to ensure the following criteria were met:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
 
-**Anything more?**
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Issue : .....
 
----
+### Lighthouse Testing
 
-Happy coding!
+#### Welcome Page
+
+![Welcome page lighthouse](assets/images/)
+
+#### Game Page
+![Game page](assets/images/)
+
+#### History Page
+
+![Piano page](assets/images/)
+![Quiz page]
+![ Instruction Page](assets/images)
+
+#### Contact Page
+
+![contact us](assets/images/)
+
+### Functional Testing
+
+#### Navigation Links
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load    |
+| --------------- | --------------- |
+| Home            | index.html |        
+| Instruction     | history.html    |
+|  Game           | game.html       |
+|  Piano          |  piano.html
+| Contact Us      | contact.html    |
+
+All link navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the  Home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+*Scenario*
+
+Steps to test: As expected
+
+1. Navigate to [String - Game Page]( https://)
+,,,,,,,,,,,,,,,,,,,,,,,,,,....
+.........................................
+
+2. Piano..............................
+.............................
+
+3. Quiz
+,,,..............................................
+
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect color.
+
+Each item opened a new tab when clicked as expected and correct hover color was present.
+
+**Contact form**
+
+### Scenario One - Correct Inputs
+
+Steps to test:
+### If the user inputs the user name and correct email with email format.
+Full Name: team string
+Email; abe@teamstring.com
+Submit;
+on clicking submit, It will navigate the user to Successful Message, 
+
+### Scenario two - blank Inputs
+
+Steps to test:
+But  if the user e.g;
+Full Name:
+Email; uju@gmail.com
+Submit;
+on clicking submit, there will a message telling the user that name filed must not be empty
+
+### Scenario One - incorrect email Inputs
+
+Steps to test:
+But  if the user e.g;
+Full Name: Code Silver
+Email; gmail.com
+Submit;
+on clicking submit, there will a message telling the user that email field must contain @ 
+
+### Actual:
+Website behaved as expected
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+### Game section
+
+![Game HTML Validator Results](assets/images/)
+
+### Piano section
+
+![Piano HTML Validator Results](assets/images/)
+
+### Contact section
+
+![Contact us Validator Results](assets/images/)
+
+- CSS
+  - There were no errors found when passing through the official [W3C validator](https://validator.w3.org)
+
+![CSS Validator Results](assets/images/readme-images/)
+
+- JS
+  - There were no errors found when passing through the [JSHint Validator](https://jshint.com/)
+
+## Bugs
+
+### Fixed Bugs
+##### Bug 
+
+
+
+##### Cause
+
+## Deployment
+
+### Version Control
+
+The site was designed and created by a team of 5, using a variety of code editors and was pulled and pushed to the "The string Team " Git Hub repository.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git pull origin main ``` - This command is used to fetch changes from a remote repository and integrate them into your current local branch..
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push origin <branch-name>``` - This command was used to push all committed code to the remote repository on github.
+
+```git checkout ``` -  This Git command is used for changing the current branch you're working on.
+
+```git checkout -b <branch-name>``` - This Git command is used for creating a new branch
+
+### Deployment to Github Pages
+
+The live link can be found here -  https://
+
+## Team Collaborators
+- Emma (add surname)
+- Josh  ''
+- Aiga   ''
+- Sopiko ''
+- Uju Adimora
+
+## Agile
+### Github Projects
+* At the beginning of the project, team members had a brainstorm to think of ideas that the site could include. These were divided into 'Must have', 'Should have', 'Could have' and Done.
+* At the beginning of every day, the issues posted to the GitHub project board were assigned to different members, with 'Must Have' issues being highest priority and 'Could have' being lowest priority.
+* At the end of the day, the board would be readjusted based on what projects were completed on that day, and which remaining projects were more vital to the site.
+* Upon completion, all issues in the project were completed.
+
+![Github Project](assets/images/)
+
+### Issues
+* The issues posted to the GitHub project were based on the User Stories the team had brainstormed on the first day of development.
+
+![Project Issues](assets/images/readme-images/user-story-----)
+
+## Credits 
+
+* https://www.w3schools.com/ Some of the code was used from this site to create form. Styles were changed to suit styling on our Website. I recommend this site for all beginners.
+
+* https://stackoverflow.com This site also help our in resovlving some issue in coding
+
+### Content 
+* Background Image - "Image by pikisuperstar on freepik" - [freepik.com](https://www.freepik.com/free-vector/halloween-decorative-background_9694093.htm?epik=dj0yJnU9UVFaYWdqT2lYeDkweERZdm00eUFDbGxGdFhGX1p6UnQmcD0wJm49NGZOcjktNHZkazNGTy1fY0FXUVpkQSZ0PUFBQUFBR1V5T0c4&sign-up=google)
+
+
+
