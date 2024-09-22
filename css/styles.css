@@ -687,8 +687,13 @@ textarea::placeholder {
   color: red;
   margin-top: 16px;
 }
-
-
+.card-div{
+  background-color:#d63384 !important;
+}
+.card-text{
+  color:#ffff;
+  font-size:18px;
+}
 @media (min-width: 1200px) {
   .display-3 {
     font-size: 4rem;
