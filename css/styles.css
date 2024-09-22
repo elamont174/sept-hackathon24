@@ -11794,6 +11794,12 @@ html {
   cursor: pointer;
 }
 
+/* ----------ABOUT PAGE ----------*/
+
+.icon-about-page {
+  color: #ffa4f0;
+}
+
 /* ----------FOOTER----------*/
 
 .footer-github {
