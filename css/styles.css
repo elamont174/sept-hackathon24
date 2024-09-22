@@ -195,11 +195,6 @@ h6,
   font-size: 1rem;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
 abbr[title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -8605,7 +8600,7 @@ fieldset:disabled .btn {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #e4e7eb !important;
+  background-color: white !important;
 }
 
 .bg-success {
@@ -11391,14 +11386,15 @@ html {
   color: #3e4c59;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1f2933;
+  color: #f364a2;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #1f2933;
+  color: #bc0a6f;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1f2933;
+  color: #a30664;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11420,13 +11416,13 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #da127d;
+    background: #e8368f;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: #a30664;
+    background: #ffb8d2;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -11454,6 +11450,35 @@ html {
   color: #6c757d;
 }
 
+/* style the background with a piano image  */
+.bg-piano {
+  z-index: -2;
+  position: absolute;
+  height: 100vh;
+  width: 160%;
+  top: 30%;
+  left: 00%;
+  opacity: 10%;
+  background: url(/assets/img/learnmusic.svg) no-repeat;
+}
+
+@media (max-width: 600px) {
+  .bg-piano {
+    height: 100vh;
+  }
+}
+
+.bg-pattern {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -100;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='46' viewBox='0 0 70 46'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffb8d2' fill-opacity='0.4'%3E%3Cpolygon points='68 44 62 44 62 46 56 46 56 44 52 44 52 46 46 46 46 44 40 44 40 46 38 46 38 44 32 44 32 46 26 46 26 44 22 44 22 46 16 46 16 44 12 44 12 46 6 46 6 44 0 44 0 42 8 42 8 28 6 28 6 0 12 0 12 28 10 28 10 42 18 42 18 28 16 28 16 0 22 0 22 28 20 28 20 42 28 42 28 28 26 28 26 0 32 0 32 28 30 28 30 42 38 42 38 0 40 0 40 42 48 42 48 28 46 28 46 0 52 0 52 28 50 28 50 42 58 42 58 28 56 28 56 0 62 0 62 28 60 28 60 42 68 42 68 0 70 0 70 46 68 46'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+  /* background-color: #ffffff; */
+  mask-image: linear-gradient(to right, transparent 20%, red);
+}
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
@@ -11482,6 +11507,7 @@ html {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
