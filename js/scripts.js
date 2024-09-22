@@ -95,3 +95,16 @@ startRandomGameBtn.addEventListener("click", () => {
       break;
   }
 });
+
+// ---------- UI aninmations ---------- //
+
+const tl = gsap.timeline({ defaults: { duration: 1 } });
+
+// gsap.to(".main-heading", { x: 50 });
+//gsap.f//rom(".main-heading", { y: 50, opacity: 0 });
+
+tl.from(".main-heading", { y: 50, opacity: 0 }).to(
+  ".main-heading h1, .main-heading p",
+  { clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)" },
+  "-=.7"
+);
