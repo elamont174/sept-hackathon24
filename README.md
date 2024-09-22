@@ -1,77 +1,65 @@
 # Hackathon team 5( The String team)
 
-The  String section site  is  Children hack  site dedicated  for children who want to learn Music and also play memory Game . It features 3 pages, the landing page being a welcome page
-The about page features a few paragraphs of text detailing about their Hackathon team 5 and their contact
-The instruction  page, where a user can read simple instruction about to play memory Game.
+The  String section site  is  Children and biginners' hack  site dedicated  for children  and anyone who want to learn Music while having fun . It features 4 pages, the landing page being the home page. The  start random game page, is a where user can pick game to play randomly( it has memory game section, Piano section and quiz section)  About us page is where  user can read about the coders of this String section site and  contact us page where user can fill form for enquirly
 
 
 View the live site
-[here](https://).
+[here](https://elamont174.github.io/sept-hackathon24/).
 
-![Mockup](asset/)
+![Mockup](assets/img/readme_images/mochsite.png)
 
 ## Features 
-
 ### Site wide
 #### Navigation Menu
-*   String Logo, which serves as a link to the index page,  and is responsive at 320px, 600px, and 50em. 1024px
+* String Logo, which serves as a link to the index page,  and is responsive at 320px, 600px, and 50em. 1024px
+![logo](assets/img/team_logo.png)
 *   This will allow users to easily navigate between the pages within the site on these sizes devices.
 
-![Nav Menu](assets/images)
+![Nav Menu](assets/img/readme_images/header.png)
 
 #### Hamburger Icon
 * At 991 pixel width or below, the navbar will turn into a drop down menu which also features a drop down toggle.
 
-![Nav toggle](assets/images)
 
 #### Footer
-*   This  contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. 
+*   This  contain  Sring section Git_Rep icon  that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. 
 
-![Footer](assets/images/)
-
-#### Background Image
-* The site contains this..... 
-
-![Background Image](assets/images)
+![footer](assets/img/readme_images/footer_plag.png)
 
 ### Landing Page
 * This page  welcomes the user to the website.
 
-![Landing Page Image](assets/images/readme-images)
+![Landing Page Image](assets/img/readme_images/home_page.png)
 
-### Game Page
-* This page features the  game Page. The user is .....
+### Random Game Page
+* This page  features three sections game
 
-![Game Page](assets/images/)
-* Once the user has -------
+![memory_game section](assets/img/readme_images/memory_game.png)
+* This section is for Memory game section
 * 
 
-![Piano Page](assets/images/)
+![quiz_section](assets/img/readme_images/quiz_page.png)
 
-* This page for -----
+* This page is where user text the knowledge about the Music note
 
-### Instruction Page
+![Piano section](assets/img/readme_images/piano_section.png)
+This section wehere user learn differrn type of Music Sound
 
-* The instruction page features  the instructure how to play Game ......
-
-![Instruction page](assets/images/)
-
-* It features -----
 
 ### Contact page
 *   This contact form is implemented to allow users to contact 'The String Team' 
 *   Username (is a must;  if a user did not input their name, the system will warn that the name must be written)
 *   Email (is a must; if the user did not input their email, or input some text without "@", the user will be notified.)
 
-![Contact us page](assets/images/)
+![Contact us page](assets/img/readme_images/contact_us.png)
 
 * On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the original site.
 
 ![Thank You message](assets/images/)
 
-* The contact page also features links to the The String Team members' LinkedIn Profiles.
 
-![Team M3mbers](assets/images/)
+![About us page](assets/img/readme_images/aboutus_section.png)
+The page feaures what you need to know about  the contrbutors of this site
 
 ### Features Left to Implement
 
