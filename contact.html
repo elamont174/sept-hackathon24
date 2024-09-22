@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1"
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -23,16 +23,34 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-    <!-- Core theme CSS (includes Bootstrap)-->
+
     <link href="./css/styles.css" rel="stylesheet" />
+    <style>
+      footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        body {
+            background-image: url("../assets/img/guitar.jpg");
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
   </head>
-  <body>
+  <body id="page-top">
+    <div class="bg-piano"></div>
+    <div class="bg-pattern"></div>
     <!-- Navigation-->
     <nav
       class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
       id="mainNav"
     >
-      <div class="container">
+      <div class="container" >
         <a class="navbar-brand" href="index.html"
           ><img
             src="./assets/img/team_logo.png"
@@ -80,12 +98,12 @@
         </div>
       </div>
     </nav>
-
     <!-- form -->
+<div class="container page-section">
     <div class="contact-form">
       <form id="form" action="feedback.html" method="GET">
         <div id="details-div">
-          <label for="name" class="label">Name:</label>
+          <label for="name" class="form-label">Name:</label>
           <input
             type="text"
             id="name"
@@ -95,7 +113,7 @@
             required
           />
           <br />
-          <label for="email" class="label">E-mail:</label>
+          <label for="email" class="form-label">E-mail:</label>
           <input
             type="email"
             id="email"
@@ -112,23 +130,23 @@
           class="feedback"
           cols="30"
           rows="10"
-          placeholder="Could you please share your impressions about our website? Your feedback is important   "
+          placeholder="Could you please share your impressions about our website? Your feedback is important to us"
         ></textarea>
         <br />
-        <label for="select-answer" class="label"
+        <label for="select-answer" class="form-label"
           >where did you hear about our site?</label
         >
         <select id="select-answer" required>
           <option class="option" value="">Please choose one option:</option>
-          <option class="option" value="soc-network">social network</option>
-          <option class="option" value="ff">Friens or Family</option>
+          <option class="option" value="soc-network">Social network</option>
+          <option class="option" value="ff">Friends or Family</option>
           <option class="option" value="other">Other</option>
         </select>
 
-        <input class="submit" type="submit" id="submit-btn" value="Submit" />
+        <input class="submit rounded" type="submit" id="submit-btn" value="Submit" />
       </form>
     </div>
-
+  </div>
     <!-- Footer-->
   <footer class="footer text-center">
     <div class="container">
