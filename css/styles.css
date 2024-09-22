@@ -11537,3 +11537,11 @@ html {
   height: 200px; 
   object-fit: cover; 
 }
+
+.game-info-content {
+  display: none;
+}
+
+.game-card-body {
+  cursor: pointer;
+}
