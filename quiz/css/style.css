@@ -1,20 +1,18 @@
-
-
 .quiz-app {
   background: #ffffff;
   width: 90%;
   max-width: 600px;
   margin: 100px auto 0;
   border-radius: 10px;
-  border: #001e4d 1px solid;
+  border: #212529 1px solid;
   padding: 30px;
 }
 
 .quiz-app h1 {
   font-weight: 25px;
-  color: #001e4d;
+  color: #212529;
   font-weight: 600;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #212529;
   padding-bottom: 30px;
 }
 
@@ -24,16 +22,16 @@
 
 .quiz h2 {
   font-size: 18px;
-  color: #001e4d;
+  color: #212529;
   font-weight: 600;
 }
 
 .btn {
   background: #ffffff;
-  color: #222;
+  color: #343a40;
   font-weight: 500;
   width: 100%;
-  border: 1px solid #222;
+  border: 1px solid #343a40;
   padding: 10px;
   margin: 10px 0;
   text-align: left;
@@ -43,7 +41,7 @@
 }
 
 .btn:hover:not([disabled]) {
-  background-color: #222;
+  background-color: #343a40;
   color: #fff;
 }
 
@@ -52,7 +50,7 @@
 }
 
 #next-btn {
-  background: #001e4d;
+  background: #d63384;
   color: #fff;
   font-weight: 500;
   width: 150px;
@@ -66,10 +64,10 @@
 
 #home-btn {
   background: #fff;
-  color: #001e4d;
+  color: #d63384;
   font-weight: 500;
   width: 150px;
-  border: #001e4d 1px solid;
+  border: #d63384 1px solid;
   padding: 10px;
   margin: 20px auto 0;
   border-radius: 4px;
