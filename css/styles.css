@@ -694,6 +694,10 @@ textarea::placeholder {
   color:#ffff;
   font-size:18px;
 }
+/* style for about page */
+#about{
+  height:100vh;
+}
 @media (min-width: 1200px) {
   .display-3 {
     font-size: 4rem;
