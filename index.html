@@ -1,238 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Sept Hackathon - Team 5</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="./css/styles.css" rel="stylesheet" />
-  </head>
-  <body class="main-layout" id="page-top">
-    <div class="bg-piano"></div>
-    <div class="bg-pattern"></div>
 
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-      id="mainNav"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="index.html"
-          ><img
-            src="./assets/img/team_logo.png"
-            alt="team logo"
-            class="img-fluid navbar-img"
-          />
-        </a>
-        <button
-          class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded"
-                href="#portfolio"
-                id="start-random-game"
-                >Start Random Game</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html"
-                >About</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>The Musical Playground</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="./css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="main-layout" id="page-top">
+  <div class="bg-piano"></div>
+  <div class="bg-pattern"></div>
+
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="./assets/img/team_logo.png" alt="team logo"
+          class="img-fluid navbar-img" />
+      </a>
+      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio" id="start-random-game">Start Random Game</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Wrapper with a 2 column layout for desktop and 1 column layout for mobile-->
-    <section class="masthead page-section portfolio" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <!-- Frist column with the title -->
-          <div class="col-sm-12 col-lg-6">
-            <h1 class="text-secondary">Have fun and learn some music!</h1>
-            <p class="text-secondary mt-16 lh-md">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Explicabo ullam iusto quo nisi perferendis, vero harum laborum
-              odit deleniti commodi.
-            </p>
-          </div>
-          <!-- Second column with the games -->
-          <div class="col-12 col-lg-6">
-            <!-- Container with links to the games-->
-            <div class="container">
-              <div class="row gy-5">
-                <!-- Opens a modal to enter game 1 -->
-                <div class="col-12 col-sm-6 h-100 y">
-                  <div
-                    class="portfolio-item mx-auto"
-                    data-bs-toggle="modal"
-                    data-bs-target="#portfolioModal1"
-                  >
-                    <div
-                      class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-                    >
-                      <div
-                        class="portfolio-item-caption-content text-center text-white"
-                      >
-                        <i class="fas fa-plus fa-3x"></i>
-                      </div>
+    </div>
+  </nav>
+  <!-- Wrapper with a 2 column layout for desktop and 1 column layout for mobile-->
+  <section class="masthead page-section portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <!-- Frist column with the title -->
+        <div class="col-sm-12 col-lg-6">
+          <h1 class="text-secondary">Have fun and learn some music!</h1>
+          <p class="text-secondary mt-16 lh-md">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Explicabo ullam iusto quo nisi perferendis, vero harum laborum
+            odit deleniti commodi.
+          </p>
+        </div>
+        <!-- Second column with the games -->
+        <div class="col-12 col-lg-6">
+          <!-- Container with links to the games-->
+          <div class="container">
+            <div class="row gy-5">
+              <!-- Opens a modal to enter game 1 -->
+              <div class="col-12 col-sm-6 h-100 y">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                      <i class="fas fa-plus fa-3x"></i>
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/img/placeholder_img.svg"
-                      alt="..."
-                    />
                   </div>
+                  <img class="img-fluid" src="./assets/img/placeholder_img.svg" alt="..." />
                 </div>
-                <div class="col-12 col-sm-6 h-100">
-                  <!-- Opens a modal to enter game 2 -->
-                  <div
-                    class="portfolio-item mx-auto"
-                    data-bs-toggle="modal"
-                    data-bs-target="#portfolioModal2"
-                  >
-                    <div
-                      class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-                    >
-                      <div
-                        class="portfolio-item-caption-content text-center text-white"
-                      >
-                        <i class="fas fa-plus fa-3x"></i>
-                      </div>
+              </div>
+              <div class="col-12 col-sm-6 h-100">
+                <!-- Opens a modal to enter game 2 -->
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                      <i class="fas fa-plus fa-3x"></i>
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/img/placeholder_img.svg"
-                      alt="..."
-                    />
                   </div>
+                  <img class="img-fluid" src="./assets/img/placeholder_img.svg" alt="..." />
                 </div>
-                <div class="col-12 col-sm-6 h-100">
-                  <!-- Opens a modal to enter game 3 -->
-                  <div
-                    class="portfolio-item mx-auto"
-                    data-bs-toggle="modal"
-                    data-bs-target="#portfolioModal3"
-                  >
-                    <div
-                      class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-                    >
-                      <div
-                        class="portfolio-item-caption-content text-center text-white"
-                      >
-                        <i class="fas fa-plus fa-3x"></i>
-                      </div>
+              </div>
+              <div class="col-12 col-sm-6 h-100">
+                <!-- Opens a modal to enter game 3 -->
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                      <i class="fas fa-plus fa-3x"></i>
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/img/placeholder_img.svg"
-                      alt="..."
-                    />
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">Footer</div>
-      </div>
-    </footer>
-    <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; Hackathon Team 5 2024</small>
-      </div>
-    </div>
-    <!-- Game Select Modals-->
-    <!-- Game Select Modal 1-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal1"
-      tabindex="-1"
-      aria-labelledby="portfolioModal1"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Game Select Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-5"
-                  >
-                    Keyboard Game
-                  </h2>
-                  <!-- Game Select Modal - Image-->
-                  <a href="./piano.html">
-                    <img
-                      class="img-fluid rounded mb-5"
-                      src="./assets/img/placeholder_img.svg"
-                      alt="Start the Piano Game"
-                    />
-                  </a>
-                  <!-- Game Select Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
+                  <img class="img-fluid" src="./assets/img/placeholder_img.svg" alt="..." />
                 </div>
               </div>
             </div>
@@ -240,124 +107,159 @@
         </div>
       </div>
     </div>
-    <!-- Game Select Modal 2-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal2"
-      tabindex="-1"
-      aria-labelledby="portfolioModal2"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Game Select Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-5"
-                  >
-                    Memory Game
-                  </h2>
-                  <!-- Game Select Modal - Image-->
-                  <a href="./game.html">
-                    <img
-                      class="img-fluid rounded mb-5"
-                      src="./assets/img/placeholder_img.svg"
-                      alt="Start the Memory Game"
-                    />
-                  </a>
-                  <!-- Game Select Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
+  </section>
+  <!-- Footer-->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="footer-github"><a href="https://github.com/elamont174/sept-hackathon24" target="_blank"
+            aria-label="Link to our GitHub repository - opens in a new tab"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="col-12 footer-blurb">
+          Welcome to The Musical Playground. <br />We believe that learning music should be fun
+          for everyone, no matter
+          your age or experience level! Our platform combines interactive games and engaging quizzes to help you develop
+          musical skills in an enjoyable and stress-free way.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Copyright Section-->
+  <div class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; The "String" Section 2024</small>
+    </div>
+  </div>
+  <!-- Game Select Modals-->
+  <!-- Game Select Modal 1-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Game Select Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">
+                  Keyboard Game
+                </h2>
+                <!-- Game Select Modal - Image-->
+                <a href="./piano.html">
+                  <img class="img-fluid rounded mb-5" src="./assets/img/placeholder_img.svg"
+                    alt="Start the Piano Game" />
+                </a>
+                <!-- Game Select Modal - Text-->
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Mollitia neque assumenda ipsam nihil, molestias magnam,
+                  recusandae quos quis inventore quisquam velit asperiores,
+                  vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                  Nam.
+                </p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Close Window
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Game Select Modal 3-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal3"
-      tabindex="-1"
-      aria-labelledby="portfolioModal3"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Game Select Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-5"
-                  >
-                    Quiz Game
-                  </h2>
-                  <!-- Game Select Modal - Image-->
-                  <a href="./quiz.html">
-                    <img
-                      class="img-fluid rounded mb-5"
-                      src="./assets/img/placeholder_img.svg"
-                      alt="Start the Quiz Game"
-                    />
-                  </a>
-                  <!-- Game Select Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
+  </div>
+  <!-- Game Select Modal 2-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Game Select Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">
+                  Memory Game
+                </h2>
+                <!-- Game Select Modal - Image-->
+                <a href="./game.html">
+                  <img class="img-fluid rounded mb-5" src="./assets/img/placeholder_img.svg"
+                    alt="Start the Memory Game" />
+                </a>
+                <!-- Game Select Modal - Text-->
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Mollitia neque assumenda ipsam nihil, molestias magnam,
+                  recusandae quos quis inventore quisquam velit asperiores,
+                  vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                  Nam.
+                </p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Close Window
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  </body>
+  </div>
+  <!-- Game Select Modal 3-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Game Select Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">
+                  Quiz Game
+                </h2>
+                <!-- Game Select Modal - Image-->
+                <a href="./quiz.html">
+                  <img class="img-fluid rounded mb-5" src="./assets/img/placeholder_img.svg"
+                    alt="Start the Quiz Game" />
+                </a>
+                <!-- Game Select Modal - Text-->
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Mollitia neque assumenda ipsam nihil, molestias magnam,
+                  recusandae quos quis inventore quisquam velit asperiores,
+                  vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                  Nam.
+                </p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>
