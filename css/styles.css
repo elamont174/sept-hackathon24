@@ -11463,7 +11463,7 @@ html {
 .bg-piano {
   z-index: -2;
   position: absolute;
-  height: 100vh;
+  height: 50vh;
   width: 160%;
   top: 30%;
   left: 00%;
@@ -11560,16 +11560,24 @@ html {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #e4e7eb;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
   color: #323f4b;
   max-height: 200px;
 }
 
+.footer svg {
+  min-height: 50px;
+}
+
 .copyright {
-  background-color: #cbd2d9;
-  color: #52606d;
+  background-color: #ffe3ec;
+  color: #ff8cba;
+}
+.copyright small {
+  background-color: #ffe3ec;
+  color: #ff8cba;
 }
 
 .main-layout {
@@ -11580,7 +11588,7 @@ html {
 
 /* for UI animations */
 .main-heading h1,
-.main-heading p  {
+.main-heading p {
   display: block;
   clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 }
