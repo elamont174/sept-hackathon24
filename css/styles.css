@@ -11602,6 +11602,32 @@ html {
   align-items: flex-end;
 }
 
+/* questions*/
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+
+.piano-questions{
+    margin: 50px;
+}
+
+.piano-answers {
+    margin: 50px;
+}
+
 /* to display the keyboard only partially on small screens */
 .mobile-none {
   display: flex;
@@ -11758,12 +11784,6 @@ a.footer-github {
 }
 
 a.footer-github:hover {
-  color: #c2368b;
-}
-
-.copyright {
-  margin-top: -5px;
-  height: 5px;
   color: #c2368b;
 }
 
