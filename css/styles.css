@@ -589,7 +589,7 @@ progress {
 }
 
 .form-label {
-  color:white;
+  color:rgb(255, 230, 0);
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 6px;
@@ -614,7 +614,7 @@ progress {
 .input:hover,
 .feedback:hover,
 .select-answer:hover {
-  border-color: #ff0000;
+  border-color: #e405ac;
 }
 
 .input::placeholder {
@@ -645,7 +645,7 @@ progress {
 
 textarea::placeholder {
   font-size: 16px;
-  color: #ffffff65;
+  color: #990e8dd0;
   font-weight: 700;
 }
 
@@ -655,7 +655,7 @@ textarea::placeholder {
   border-radius: 9px;
   margin: 9px 0;
   width: 95%;
-  background-color: rgba(60, 60, 60, 0.5);
+  background-color: rgba(60, 60, 60, 0.8);
   color: #ffffff;
   font-weight: 300;
   font-size: 16px;
