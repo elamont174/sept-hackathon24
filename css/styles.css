@@ -11705,6 +11705,69 @@ html {
   font-size: large;
 }
 
+/* game css */
+/* game css */
+#game-section {
+  margin-top: 80px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh ; 
+}
+
+.game-card {
+  margin: 15px auto; 
+}
+
+#game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+
+#button-container {
+  margin-top: 20px; 
+}
+
+.game-card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.game-info-content {
+  display: none;
+}
+
+.game-card-body {
+  cursor: pointer;
+}
+
+/* ----------FOOTER----------*/
+
+.footer-github {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  height: -500px;
+}
+
+a.footer-github {
+  color: #a30664;
+}
+
+a.footer-github:hover {
+  color: #c2368b;
+}
+
+.copyright {
+  margin-top: -5px;
+  height: 5px;
+  color: #c2368b;
+}
+
 /* media queries  */
 @media (max-width: 992px) {
   /* to display the keyboard only partially on small screens */
