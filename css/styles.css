@@ -11800,6 +11800,10 @@ html {
   color: #ffa4f0;
 }
 
+.icon-about-page:hover {
+  color: #d263c0;
+}
+
 /* ----------FOOTER----------*/
 
 .footer-github {
