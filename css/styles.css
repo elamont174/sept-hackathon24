@@ -11705,6 +11705,46 @@ html {
   font-size: large;
 }
 
+/* game css */
+#game-section {
+  margin-top: 80px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh ; 
+}
+
+.game-card {
+  margin: 15px auto; 
+}
+
+#game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+
+#button-container {
+  margin-top: 20px; 
+}
+
+.game-card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.game-info-content {
+  display: none;
+}
+
+.game-card-body {
+  cursor: pointer;
+}
+
 /* media queries  */
 @media (max-width: 992px) {
   /* to display the keyboard only partially on small screens */
