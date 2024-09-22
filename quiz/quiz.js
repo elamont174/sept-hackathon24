@@ -96,6 +96,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-btns");
 const nextButton = document.getElementById("next-btn");
+const homeButton = document.getElementById("home-btn");
 
 let currentQuestionIndex = 0;
 let sccore = 0;
@@ -127,6 +128,7 @@ function showQuestion(){
 
 function resetState(){
     nextButton.style.display = "none";
+    homeButton.style.display = "none";
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -155,6 +157,18 @@ function showScore(){
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again!";
     nextButton.style.display = "block";
+
+    homeButton.innerHTML = "Return to Home";
+    homeButton.style.display = "block";
+    
+    // Append the "Home" button after the "Play Again" button
+    const quizDiv = document.querySelector(".quiz");
+    quizDiv.appendChild(homeButton);
+
+    // Add event listener to "Return to Home" button
+    homeButton.addEventListener("click", function() {
+        window.location.href = 'index.html';  // Redirect to the homepage
+    });
 }
 
 function handleNextBtn(){
@@ -175,3 +189,5 @@ nextButton.addEventListener("click", ()=> {
 });
 
 startQuiz();
+
+
