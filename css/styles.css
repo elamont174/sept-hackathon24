@@ -566,7 +566,7 @@ progress {
 }
 
 #form {
-  background-color: #1d1a1a80;
+  background-color: #616e7c;
   max-width: 400px;
   padding: 14px;
   border-radius: 9px;
@@ -11649,16 +11649,17 @@ html {
 .dropdown:hover .dropdown-options {
   display: block;
   background-color: white;
-
 }
 
-.piano-questions, #tunes {
-  display: flex; 
+.piano-questions,
+#tunes {
+  display: flex;
   margin-left: 100px;
   font-size: 20px;
 }
 
-.piano-answers, #tunes.dropdown {
+.piano-answers,
+#tunes.dropdown {
   margin: 50px;
   font-size: 20px;
 }
