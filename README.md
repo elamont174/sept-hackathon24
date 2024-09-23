@@ -183,13 +183,12 @@ Issue : .....
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
-| Navigation Link | Page to Load    |
-| --------------- | --------------- |
-| Home            | index.html |        
-| Instruction     | history.html    |
-|  Game           | game.html       |
-|  Piano          |  piano.html
-| Contact Us      | contact.html    |
+| Navigation Link | Page to Load        |
+| --------------- | ---------------     |
+| Home                | index.html      |        
+| Start Random game   | game.html       |
+| About us            | about.html      |
+| Contact Us          | contact.html    |
 
 All link navigated to the correct pages as exptected.
 
@@ -201,15 +200,14 @@ The form on the  Home page was tested to ensure it functioned as expected when c
 
 Steps to test: As expected
 
-1. Navigate to [String - Game Page]( https://)
-,,,,,,,,,,,,,,,,,,,,,,,,,,....
-.........................................
+1. Navigate to [String - Start Random Game]( https://elamont174.github.io/sept-hackathon24/)
 
-2. Piano..............................
-.............................
+1.Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
 
-3. Quiz
-,,,..............................................
+
+2.Piano Section: Each note you press plays its corresponding sound. It is working as expected.
+
+3. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed. The user will also have the option to play again or return to the Home page. It is working as expected.
 
 
 **Footer Social Media Icons / Links**
@@ -305,14 +303,16 @@ The following git commands were used throughout development to push code to the 
 
 ### Deployment to Github Pages
 
-The live link can be found here -  https://
+The live link can be found here -  https://elamont174.github.io/sept-hackathon24/
 
 ## Team Collaborators
-- Emma (add surname)
-- Josh  ''
-- Aiga   ''
-- Sopiko ''
+- Emma Lamont
+- Nils Nothnagel
+- Sopiko Abulidze
+- Aiga Andrejeva
 - Uju Adimora
+- Josh Lee
+- David Hernandez
 
 ## Agile
 ### Github Projects
