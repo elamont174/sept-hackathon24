@@ -188,15 +188,18 @@ The form on the  Home page was tested to ensure it functioned as expected when c
 
 Steps to test: As expected
 
-1. Navigate to [String - Game Page]( https://)
-,,,,,,,,,,,,,,,,,,,,,,,,,,....
-.........................................
+ Navigate to [String - Home page]( https://elamont174.github.io/sept-hackathon24/)
+- For  Start Ramdon Game has three sections, they are;
 
-2. Piano..............................
-.............................
+1. Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
 
-3. Quiz
-,,,..............................................
+
+
+2. Piano Section: Each note you press plays its corresponding sound. It is working as expected.
+
+3. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed(feedback). The user will also have the option to play again or return to the Home page. It is working as expected.
+
+
 
 
 **Footer Social Media Icons / Links**
@@ -292,14 +295,16 @@ The following git commands were used throughout development to push code to the 
 
 ### Deployment to Github Pages
 
-The live link can be found here -  https://
+The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 
 ## Team Collaborators
-- Emma (add surname)
-- Josh  ''
-- Aiga   ''
-- Sopiko ''
+- Emma Lamont
+- Nils Nothnagel
+- Sopiko Abulidze
+- Aiga Andrejeva
 - Uju Adimora
+- Josh Lee
+- David Hernandez
 
 ## Agile
 ### Github Projects
@@ -308,12 +313,12 @@ The live link can be found here -  https://
 * At the end of the day, the board would be readjusted based on what projects were completed on that day, and which remaining projects were more vital to the site.
 * Upon completion, all issues in the project were completed.
 
-![Github Project](assets/images/)
+![Github Project](assets/img/readme_images/project_board.png)
 
 ### Issues
 * The issues posted to the GitHub project were based on the User Stories the team had brainstormed on the first day of development.
 
-![Project Issues](assets/images/readme-images/user-story-----)
+![Project Issues](assets/img/readme_images/project_board2.png)
 
 ## Credits 
 
