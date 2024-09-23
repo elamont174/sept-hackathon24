@@ -217,13 +217,14 @@ _Scenario_
 
 Steps to test: As expected
 
-1. Navigate to [String - Start Random Game](https://elamont174.github.io/sept-hackathon24/)
+ Navigate to [String - Home page]( https://elamont174.github.io/sept-hackathon24/)
+- For  Start Ramdon Game has three sections, they are;
 
-2. Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
+1. Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
 
-3. Piano Section: Each note you press plays its corresponding sound. It is working as expected.
+2. Piano Section: Each note you press plays its corresponding sound. It is working as expected.
 
-4. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed. The user will also have the option to play again or return to the Home page. It is working as expected.
+3. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed(feedback). The user will also have the option to play again or return to the Home page. It is working as expected.
 
 **Footer Social Media Icons / Links**
 
@@ -324,7 +325,6 @@ The following git commands were used throughout development to push code to the 
 The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 
 ## Team Collaborators
-
 - Emma Lamont
 - Nils Nothnagel
 - Sopiko Abulidze
@@ -342,7 +342,7 @@ The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 - At the end of the day, the board would be readjusted based on what projects were completed on that day, and which remaining projects were more vital to the site.
 - Upon completion, all issues in the project were completed.
 
-![Github Project](assets/images/)
+![Github Project](assets/img/readme_images/project_board.png)
 
 ### Issues
 
@@ -357,6 +357,10 @@ The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 - https://stackoverflow.com This site also help our in resovlving some issue in coding
 
 - https://startbootstrap.com/theme/freelancer We used this bootstrap template to start with, and then customized it with our design
+
+- [This tutorial](https://www.youtube.com/watch?v=b-whBuOXgaU) was used to create the playable keyboard
+
+- [Leonardo AI](https://app.leonardo.ai/auth/login?callbackUrl=%2F%3Fvia%3Dlogin-sign%26gad_source%3[…]hShnJCl8N80flM2QByWtAMvc7LTIz9EoDwSlRYS35upnq5aQaAvxZEALw_wcB) was used to create the pictures for the team board
 
 ### Content
 
