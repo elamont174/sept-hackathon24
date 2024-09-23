@@ -59,8 +59,7 @@ This section wehere user learn differrn type of Music Sound
 
 ![Contact us page](assets/img/readme_images/contact_us.png)
 
-* On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the home page.
-
+- On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the home page.
 
 ![Thank You message](assets/img/readme_images/thanku_message.png)
 
@@ -74,27 +73,25 @@ The page feaures what you need to know about the contrbutors of this site
 
 ## Design
 
-
 ### WireFrames
 
 - At the very beginning of the project, we created wireframes to structure our thoughts and to focus on the html structure without distracting colours and typography. Once we agreed on the the wireframes, we got the creative flowing. All of us contributed a little bit of something to the final project.
 
-
-![Home_Wireframe](assets/img/readme_images/Home_wirflame.PNG)  
+![Home_Wireframe](assets/img/readme_images/Home_wirflame.PNG)
 
 #### Start Random Game has three sections; They are
-![Memory Game_Wireframe](assets/img/readme_images/Memo_game_wirrflame.PNG) 
 
-![Piano_Wireframe](assets/img/readme_images/piano_section.png) 
+![Memory Game_Wireframe](assets/img/readme_images/Memo_game_wirrflame.PNG)
 
-![Quiz_Wireframe](assets/img/readme_images/quiz_wirflame.PNG) 
+![Piano_Wireframe](assets/img/readme_images/piano_section.png)
+
+![Quiz_Wireframe](assets/img/readme_images/quiz_wirflame.PNG)
 
 About Us
-![About us_Wireframe](assets/img/readme_images/about_wireflame.PNG) 
+![About us_Wireframe](assets/img/readme_images/about_wireflame.PNG)
 
 Contact Us
-![Home_Wireframe](assets/img/readme_images/conact_wirflme.PNG) 
-
+![Home_Wireframe](assets/img/readme_images/conact_wirflme.PNG)
 
 ### Typography
 
@@ -210,7 +207,6 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Piano           | piano.html   |
 | Contact Us      | contact.html |
 
-
 All link navigated to the correct pages as exptected.
 
 **Form Testing**
@@ -221,16 +217,13 @@ _Scenario_
 
 Steps to test: As expected
 
-
-1. Navigate to [String - Start Random Game]( https://elamont174.github.io/sept-hackathon24/)
+1. Navigate to [String - Start Random Game](https://elamont174.github.io/sept-hackathon24/)
 
 2. Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
-
 
 3. Piano Section: Each note you press plays its corresponding sound. It is working as expected.
 
 4. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed. The user will also have the option to play again or return to the Home page. It is working as expected.
-
 
 **Footer Social Media Icons / Links**
 
@@ -328,13 +321,17 @@ The following git commands were used throughout development to push code to the 
 
 ### Deployment to Github Pages
 
-The live link can be found here -  https://elamont174.github.io/sept-hackathon24/
+The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 
 ## Team Collaborators
+
 - Emma Lamont
 - Nils Nothnagel
 - Sopiko Abulidze
 - Aiga Andrejeva
+- Uju Adimora
+- Josh Lee
+- David Hernandez
 
 ## Agile
 
