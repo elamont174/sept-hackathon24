@@ -175,23 +175,9 @@ Issue : .....
 
 ### Lighthouse Testing
 
-#### Welcome Page
+This test is done for entire  website
+![site lighthouse](assets/img/readme_images/site_light_house.png)
 
-![Welcome page lighthouse](assets/images/)
-
-#### Game Page
-
-![Game page](assets/images/)
-
-#### History Page
-
-![Piano page](assets/images/)
-![Quiz page]
-![ Instruction Page](assets/images)
-
-#### Contact Page
-
-![contact us](assets/images/)
 
 ### Functional Testing
 
@@ -228,9 +214,7 @@ Steps to test: As expected
 
 **Footer Social Media Icons / Links**
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect color.
-
-Each item opened a new tab when clicked as expected and correct hover color was present.
+Testing was performed on the Git Hub Repository icons in the footer to ensure that it open in a new tab.
 
 **Contact form**
 
@@ -274,20 +258,26 @@ Website behaved as expected
 
 ### Game section
 
-![Game HTML Validator Results](assets/images/)
+![Home page)HTML Validator Results](assets/img/readme_images/htmlpage_valid.png)
+
+### about Us
+![about us)HTML Validator Results](assets/img/readme_images/about_valid.png)
+
+### Memory game
+![memory Game)HTML Validator Results](assets/img/readme_images/memory_valid.png)
 
 ### Piano section
 
-![Piano HTML Validator Results](assets/images/)
+![Piano HTML Validator Results](assets/img/readme_images/piano_valid.png)
 
 ### Contact section
 
-![Contact us Validator Results](assets/images/)
+![Contact us Validator Results](assets/img/readme_images/contac_valid.png)
 
 - CSS
   - There were no errors found when passing through the official [W3C validator](https://validator.w3.org)
 
-![CSS Validator Results](assets/images/readme-images/)
+![CSS Validator Results](assets/img/readme_images/css_validation.png)
 
 - JS
   - There were no errors found when passing through the [JSHint Validator](https://jshint.com/)
@@ -348,7 +338,7 @@ The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 
 - The issues posted to the GitHub project were based on the User Stories the team had brainstormed on the first day of development.
 
-![Project Issues](assets/images/readme-images/user-story-----)
+![Project Issues](assets/img/readme_images/project_board2.png)
 
 ## Credits
 
@@ -365,3 +355,8 @@ The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 ### Content
 
 - Background Image - "Image by pikisuperstar on freepik" - [freepik.com](https://www.freepik.com/free-vector/halloween-decorative-background_9694093.htm?epik=dj0yJnU9UVFaYWdqT2lYeDkweERZdm00eUFDbGxGdFhGX1p6UnQmcD0wJm49NGZOcjktNHZkazNGTy1fY0FXUVpkQSZ0PUFBQUFBR1V5T0c4&sign-up=google)
+
+
+
+
+
