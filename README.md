@@ -53,9 +53,9 @@ This section wehere user learn differrn type of Music Sound
 
 ![Contact us page](assets/img/readme_images/contact_us.png)
 
-* On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the original site.
+* On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the home page.
 
-![Thank You message](assets/images/)
+![Thank You message](assets/img/readme_images/thanku_message.png)
 
 
 ![About us page](assets/img/readme_images/aboutus_section.png)
@@ -69,9 +69,22 @@ The page feaures what you need to know about  the contrbutors of this site
 ## Design 
 
 ### WireFlame
-* At the very beginning of the project, the Scrum Master instructed the Team Members to create a simple wireframe of the landing page to get creative  flowing. All of which contributed a little bit of something to the final project.
+* At the very beginning of the project, the Scrum Master instructed the Team Members to create a simple wireframe  pages to get creative  flowing. All of which contributed a little bit of something to the final project.
 
-![Wireframe](assets/images/)
+![Home_Wireframe](assets/img/readme_images/Home_wirflame.PNG)  
+
+#### Start Random Game has three sections; They are
+![Memory Game_Wireframe](assets/img/readme_images/Memo_game_wirrflame.PNG) 
+
+![Piano_Wireframe](assets/img/readme_images/piano_section.png) 
+
+![Quiz_Wireframe](assets/img/readme_images/quiz_wirflame.PNG) 
+
+About Us
+![About us_Wireframe](assets/img/readme_images/about_wireflame.PNG) 
+
+Contact Us
+![Home_Wireframe](assets/img/readme_images/conact_wirflme.PNG) 
 
 ### Colour Scheme
 We chose the site's colours to mirror the Children color (green, red, yellow, ---).
