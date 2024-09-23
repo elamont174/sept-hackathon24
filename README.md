@@ -53,9 +53,9 @@ This section wehere user learn differrn type of Music Sound
 
 ![Contact us page](assets/img/readme_images/contact_us.png)
 
-* On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the original site.
+* On a successful submission of the contact form, the user will be navigated to Thank.html displaying a thank you message, and will provide a link back to the home page.
 
-![Thank You message](assets/images/)
+![Thank You message](assets/img/readme_images/thanku_message.png)
 
 
 ![About us page](assets/img/readme_images/aboutus_section.png)
@@ -69,9 +69,22 @@ The page feaures what you need to know about  the contrbutors of this site
 ## Design 
 
 ### WireFlame
-* At the very beginning of the project, the Scrum Master instructed the Team Members to create a simple wireframe of the landing page to get creative  flowing. All of which contributed a little bit of something to the final project.
+* At the very beginning of the project, the Scrum Master instructed the Team Members to create a simple wireframe  pages to get creative  flowing. All of which contributed a little bit of something to the final project.
 
-![Wireframe](assets/images/)
+![Home_Wireframe](assets/img/readme_images/Home_wirflame.PNG)  
+
+#### Start Random Game has three sections; They are
+![Memory Game_Wireframe](assets/img/readme_images/Memo_game_wirrflame.PNG) 
+
+![Piano_Wireframe](assets/img/readme_images/piano_section.png) 
+
+![Quiz_Wireframe](assets/img/readme_images/quiz_wirflame.PNG) 
+
+About Us
+![About us_Wireframe](assets/img/readme_images/about_wireflame.PNG) 
+
+Contact Us
+![Home_Wireframe](assets/img/readme_images/conact_wirflme.PNG) 
 
 ### Colour Scheme
 We chose the site's colours to mirror the Children color (green, red, yellow, ---).
@@ -170,13 +183,12 @@ Issue : .....
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
-| Navigation Link | Page to Load    |
-| --------------- | --------------- |
-| Home            | index.html |        
-| Instruction     | history.html    |
-|  Game           | game.html       |
-|  Piano          |  piano.html
-| Contact Us      | contact.html    |
+| Navigation Link | Page to Load        |
+| --------------- | ---------------     |
+| Home                | index.html      |        
+| Start Random game   | game.html       |
+| About us            | about.html      |
+| Contact Us          | contact.html    |
 
 All link navigated to the correct pages as exptected.
 
@@ -188,15 +200,14 @@ The form on the  Home page was tested to ensure it functioned as expected when c
 
 Steps to test: As expected
 
-1. Navigate to [String - Game Page]( https://)
-,,,,,,,,,,,,,,,,,,,,,,,,,,....
-.........................................
+1. Navigate to [String - Start Random Game]( https://elamont174.github.io/sept-hackathon24/)
 
-2. Piano..............................
-.............................
+1.Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
 
-3. Quiz
-,,,..............................................
+
+2.Piano Section: Each note you press plays its corresponding sound. It is working as expected.
+
+3. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed. The user will also have the option to play again or return to the Home page. It is working as expected.
 
 
 **Footer Social Media Icons / Links**
@@ -292,14 +303,16 @@ The following git commands were used throughout development to push code to the 
 
 ### Deployment to Github Pages
 
-The live link can be found here -  https://
+The live link can be found here -  https://elamont174.github.io/sept-hackathon24/
 
 ## Team Collaborators
-- Emma (add surname)
-- Josh  ''
-- Aiga   ''
-- Sopiko ''
+- Emma Lamont
+- Nils Nothnagel
+- Sopiko Abulidze
+- Aiga Andrejeva
 - Uju Adimora
+- Josh Lee
+- David Hernandez
 
 ## Agile
 ### Github Projects
