@@ -175,23 +175,9 @@ Issue : .....
 
 ### Lighthouse Testing
 
-#### Welcome Page
+This test is done for entire  website
+![site lighthouse](assets/img/readme_images/site_light_house.png)
 
-![Welcome page lighthouse](assets/images/)
-
-#### Game Page
-
-![Game page](assets/images/)
-
-#### History Page
-
-![Piano page](assets/images/)
-![Quiz page]
-![ Instruction Page](assets/images)
-
-#### Contact Page
-
-![contact us](assets/images/)
 
 ### Functional Testing
 
@@ -217,19 +203,18 @@ _Scenario_
 
 Steps to test: As expected
 
-1. Navigate to [String - Start Random Game](https://elamont174.github.io/sept-hackathon24/)
+ Navigate to [String - Home page]( https://elamont174.github.io/sept-hackathon24/)
+- For  Start Ramdon Game has three sections, they are;
 
-2. Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
+1. Memory Game Section: The user is presented with 6 musical instruments to interact with. The sound that plays depends on the instrument selected. It is functioning as expected.
 
-3. Piano Section: Each note you press plays its corresponding sound. It is working as expected.
+2. Piano Section: Each note you press plays its corresponding sound. It is working as expected.
 
-4. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed. The user will also have the option to play again or return to the Home page. It is working as expected.
+3. Quiz Section: Users are expected to answer 10 questions, and at the end of the quiz, the score will be displayed(feedback). The user will also have the option to play again or return to the Home page. It is working as expected.
 
 **Footer Social Media Icons / Links**
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect color.
-
-Each item opened a new tab when clicked as expected and correct hover color was present.
+Testing was performed on the Git Hub Repository icons in the footer to ensure that it open in a new tab.
 
 **Contact form**
 
@@ -273,20 +258,26 @@ Website behaved as expected
 
 ### Game section
 
-![Game HTML Validator Results](assets/images/)
+![Home page)HTML Validator Results](assets/img/readme_images/htmlpage_valid.png)
+
+### about Us
+![about us)HTML Validator Results](assets/img/readme_images/about_valid.png)
+
+### Memory game
+![memory Game)HTML Validator Results](assets/img/readme_images/memory_valid.png)
 
 ### Piano section
 
-![Piano HTML Validator Results](assets/images/)
+![Piano HTML Validator Results](assets/img/readme_images/piano_valid.png)
 
 ### Contact section
 
-![Contact us Validator Results](assets/images/)
+![Contact us Validator Results](assets/img/readme_images/contac_valid.png)
 
 - CSS
   - There were no errors found when passing through the official [W3C validator](https://validator.w3.org)
 
-![CSS Validator Results](assets/images/readme-images/)
+![CSS Validator Results](assets/img/readme_images/css_validation.png)
 
 - JS
   - There were no errors found when passing through the [JSHint Validator](https://jshint.com/)
@@ -324,7 +315,6 @@ The following git commands were used throughout development to push code to the 
 The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 
 ## Team Collaborators
-
 - Emma Lamont
 - Nils Nothnagel
 - Sopiko Abulidze
@@ -342,13 +332,13 @@ The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 - At the end of the day, the board would be readjusted based on what projects were completed on that day, and which remaining projects were more vital to the site.
 - Upon completion, all issues in the project were completed.
 
-![Github Project](assets/images/)
+![Github Project](assets/img/readme_images/project_board.png)
 
 ### Issues
 
 - The issues posted to the GitHub project were based on the User Stories the team had brainstormed on the first day of development.
 
-![Project Issues](assets/images/readme-images/user-story-----)
+![Project Issues](assets/img/readme_images/project_board2.png)
 
 ## Credits
 
@@ -358,6 +348,15 @@ The live link can be found here - https://elamont174.github.io/sept-hackathon24/
 
 - https://startbootstrap.com/theme/freelancer We used this bootstrap template to start with, and then customized it with our design
 
+- [This tutorial](https://www.youtube.com/watch?v=b-whBuOXgaU) was used to create the playable keyboard
+
+- [Leonardo AI](https://app.leonardo.ai/auth/login?callbackUrl=%2F%3Fvia%3Dlogin-sign%26gad_source%3[…]hShnJCl8N80flM2QByWtAMvc7LTIz9EoDwSlRYS35upnq5aQaAvxZEALw_wcB) was used to create the pictures for the team board
+
 ### Content
 
 - Background Image - "Image by pikisuperstar on freepik" - [freepik.com](https://www.freepik.com/free-vector/halloween-decorative-background_9694093.htm?epik=dj0yJnU9UVFaYWdqT2lYeDkweERZdm00eUFDbGxGdFhGX1p6UnQmcD0wJm49NGZOcjktNHZkazNGTy1fY0FXUVpkQSZ0PUFBQUFBR1V5T0c4&sign-up=google)
+
+
+
+
+
