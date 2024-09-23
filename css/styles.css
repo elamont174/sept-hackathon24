@@ -11659,9 +11659,10 @@ html {
 }
 
 .piano-answers,
-#tunes.dropdown {
-  margin: 3.5%;
+#tunes-2.dropdown {
+  margin: 6%;
   font-size: 20px;
+  min-width: 300px;
 }
 
 /* to display the keyboard only partially on small screens */
